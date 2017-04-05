@@ -1,0 +1,46 @@
+body {
+  background: #221d1a;
+  color: #985a82;
+  font-family: 'Raleway', sans-serif;
+  text-align: center;
+}
+
+.row-centered {
+  text-align: center;
+}
+
+.col-centered {
+  display: inline-block;
+  float: none;
+  /* reset the text-align */
+  text-align: center;
+  /* inline-block space fix */
+  margin-right: -4px;
+}
+
+h2 {
+  font-size: 30px;
+  font-family: 'Noto Serif', serif;
+}
+p {
+  text-align: left;
+}
+
+#location {
+  color: #643153;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+#icon {
+  width: 105px;
+}
+
+#desc{
+  padding-top: 5px;
+}
+button {
+  color: black;
+  font-weight: bold;
+  background: #985a82;
+}
